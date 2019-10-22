@@ -27,10 +27,8 @@ namespace ConsoleApplication1
         }
         public bool IsGameOver()
         {
-            if(G1 == 0 && G2 == 0 && G3 == 0)
-            {
+            if (G1 == 0 && G2 == 0 && G3 == 0)
                 return true;
-            }
             return false;
         }
         
